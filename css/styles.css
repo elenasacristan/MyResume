@@ -14,7 +14,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #929393 !important;
+    background-color: #80a6a6 !important;
 }
 
 .bg-secondary {
@@ -99,8 +99,8 @@ body {
 
 .masthead .masthead-avatar {
     width: 90%;
-    border: 10px solid white;
-    box-shadow: 2px 3px 4px 5px #39a0ea4f;
+    border: 15px solid white;
+    box-shadow: 2px 3px 5px 1px #777777;
     margin-bottom: 15%;
 }
 
@@ -126,7 +126,7 @@ body {
     color: #555555;
     padding: 1.5%;
     margin: 7% 10% 5%;
-    box-shadow: 2px 3px 4px 5px #506454;
+    box-shadow: 2px 3px 5px 1px #444444;
 }
 
 @media (min-width: 1200px) {
