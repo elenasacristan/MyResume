@@ -24,21 +24,18 @@ body {
 
 /* fontawesome icons */
 
-.fa,
-.fas {
+.fa, .fas {
   color: #eabc39;
   font-size: 2.3rem;
   margin: 10px;
 }
 
-.modal .fas,
-.modal a .fab {
+.modal .fas, .modal a .fab {
   font-size: 2.3rem;
   margin: 3% 7%;
 }
 
-.modal .btn-dark,
-.modal .btn-outline-dark {
+.modal .btn-dark, .modal .btn-outline-dark {
   margin-bottom: 5%;
 }
 
@@ -57,8 +54,7 @@ body {
   color: #898989;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:active,
-#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #eabc39;
 }
 
@@ -72,13 +68,11 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
     background: #eabc39;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
     background: #eabc39;
   }
@@ -193,16 +187,7 @@ header {
 
 /* modals */
 
-.btn-dark:not(:disabled):not(.disabled):active:focus,
-.btn-dark:not(:disabled):not(.disabled).active:focus,
-.show > .btn-dark.dropdown-toggle:focus,
-.btn-dark:focus,
-.btn-dark.focus,
-.btn-outline-dark:not(:disabled):not(.disabled):active:focus,
-.btn-outline-dark:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-dark.dropdown-toggle:focus,
-.btn-outline-dark:focus,
-.btn-outline-dark.focus {
+.btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show>.btn-dark.dropdown-toggle:focus, .btn-dark:focus, .btn-dark.focus, .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show>.btn-outline-dark.dropdown-toggle:focus, .btn-outline-dark:focus, .btn-outline-dark.focus {
   box-shadow: none;
 }
 
@@ -251,3 +236,29 @@ header {
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: none;
 } */
+
+/* skills */
+
+.skill {
+  font-size: 2rem;
+  /* margin-top: 10%; */
+}
+
+.skills-section h3 {
+  margin-top: 8%;
+  margin-bottom: 10%;
+}
+
+.skills-section p {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+  p {
+    margin-left: 25px;
+  }
+}
+
+.skills-block {
+  padding: 2%;
+}
