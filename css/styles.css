@@ -24,10 +24,27 @@ body {
 
 /* fontawesome icons */
 
-.fa, .fas {
+nav i {
+  color: #eabc39;
+  font-size: 2.3rem;
+}
+
+.fa-star {
   color: #eabc39;
   font-size: 2.3rem;
   margin: 10px;
+}
+
+.fa-download {
+  display: block;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  color: #eabc39;
+  font-size: 1.8rem;
+}
+
+.portfolio-modal .close {
+  color: #80a6a6;
 }
 
 .modal .fas, .modal a .fab {
@@ -35,20 +52,20 @@ body {
   margin: 3% 7%;
 }
 
+.btn-social i {
+  font-size: 2.3rem;
+}
+
 .modal .btn-dark, .modal .btn-outline-dark {
   margin-bottom: 5%;
 }
 
-/* .btn-outline-dark .fas {
-  color: #343a40;
-}
-
-.btn-outline-dark,
-.btn-outline-dark .fas:hover {
-  color: white;
-} */
-
 /* ----------------------------------------------------- nav bar */
+
+#mainNav .navbar-toggler {
+  padding: 0;
+  margin: 0;
+}
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #898989;
@@ -85,7 +102,6 @@ body {
 }
 
 .masthead .masthead-heading {
-  margin-top: 5%;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
@@ -103,7 +119,7 @@ body {
     font-size: 3rem;
   }
   .masthead .masthead-subheading {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -147,14 +163,22 @@ body {
   box-shadow: 2px 3px 5px 1px #444444;
 }
 
-@media (min-width: 1200px) {
-  .about {
-    margin: -3% 10% 5%;
-  }
+.about h2 {
+  padding-top: 1%;
 }
 
 .about p {
   font-size: 1.3rem;
+  padding: 5%;
+}
+
+@media (min-width: 1200px) {
+  .about {
+    margin: -3% 10% 5%;
+  }
+  .about p {
+    padding: 1%;
+  }
 }
 
 /* hamburguer button */
@@ -195,48 +219,6 @@ header {
   box-shadow: 3px 5px 10px 3px #777777;
 }
 
-/* .btn-primary {
-  color: #fff;
-  background-color: #000000;
-  border-color: #000000;
-} */
-
-/* .btn-primary:hover {
-  color: #fff;
-  background-color: #77777;
-  border-color: #77777;
-} */
-
-/* . element.style {
-}
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: none;
-}
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
-}
-.btn-primary:not(:disabled):not(.disabled):active,
-.btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #000000;
-  border-color: #000000;
-}
-
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: none;
-} */
-
 /* skills */
 
 .skill {
@@ -247,6 +229,8 @@ header {
 .skills-section h3 {
   margin-top: 8%;
   margin-bottom: 10%;
+  margin-left: 5%;
+  font-size: 1.2rem;
 }
 
 .skills-section p {
@@ -254,11 +238,44 @@ header {
 }
 
 @media (min-width: 992px) {
-  p {
+  .skills-section p {
     margin-left: 25px;
   }
 }
 
 .skills-block {
   padding: 2%;
+}
+
+.downloads {
+  margin-top: 80px;
+}
+
+#skills .btn {
+  margin-bottom: 5%;
+  width: 260px;
+}
+
+/* contact */
+
+.btn-info {
+  color: #fff;
+  background-color: #80a6a6;
+  border-color: #80a6a6;
+}
+
+/* footer */
+
+.btn-social {
+  width: 4rem;
+  height: 4rem;
+}
+
+.form-control {
+  line-height: 1;
+  height: calc(1.1em + 0.75rem + 0.25rem);
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+  font-size: 1.3em;
 }
