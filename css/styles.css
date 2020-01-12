@@ -3,10 +3,16 @@
 @import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800|Asap:700|Nunito:700&display=swap');
 /* genral */
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Asap', sans-serif; */
 }
 
 .text-white {
@@ -99,11 +105,11 @@ nav i {
 
 .title-heading {
   margin-top: -50px;
+  margin-bottom: 40px;
 }
 
 .masthead .masthead-heading {
   font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
 }
 
 .title-heading p {
@@ -132,10 +138,18 @@ nav i {
 /* my profile image */
 
 .masthead .masthead-avatar {
-  width: 90%;
-  border: 15px solid white;
+  width: 70%;
+  border: 7px solid white;
   box-shadow: 2px 3px 5px 1px #777777;
-  margin-bottom: 15%;
+  /* margin-bottom: 30%; */
+  transform: rotate(-5deg);
+}
+
+@media (min-width: 768px) {
+  .masthead .masthead-avatar {
+    width: 60%;
+    border: 15px solid white;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -159,17 +173,27 @@ nav i {
   background-color: #fff7df;
   color: #555555;
   padding: 1.5%;
-  margin: 7% 10% 5%;
+  margin: -1% 10% 5%;
   box-shadow: 2px 3px 5px 1px #444444;
 }
 
 .about h2 {
-  padding-top: 1%;
+  padding: 1% 5%;
+  font-size: 1.3rem;
 }
 
 .about p {
-  font-size: 1.3rem;
-  padding: 5%;
+  font-size: 1rem;
+  padding: 10%;
+}
+
+@media (min-width: 768px) {
+  /* .about {
+    margin-top: -12%;
+  } */
+  .about p {
+    padding: 3%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -177,6 +201,7 @@ nav i {
     margin: -3% 10% 5%;
   }
   .about p {
+    font-size: 1.1rem;
     padding: 1%;
   }
 }
