@@ -1,10 +1,10 @@
-/* google fonts */
+/* ----------------------------------------------------- google fonts */
 
 @import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Nunito:700&display=swap');
 
-/* genral */
+/* ----------------------------------------------------- genral */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
   box-shadow: 2px 2px 30px 3px #888888;
 }
 
-/* fontawesome icons */
+/* ----------------------------------------------------- fontawesome icons */
 
 /*logo and hamburguer icons*/
 nav i {
@@ -77,6 +77,12 @@ nav i {
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #eabc39;
+}
+
+/* hamburguer button */
+
+button:focus {
+  outline: none;
 }
 
 @media (min-width: 992px) {
@@ -133,7 +139,7 @@ nav i {
   }
 }
 
-/* my profile image */
+/* ----------------------------------------------------- my profile image */
 
 .masthead .masthead-avatar {
   width: 70%;
@@ -163,7 +169,7 @@ nav i {
   }
 }
 
-/* about section */
+/* ----------------------------------------------------- about section */
 
 .about {
   width: 80%;
@@ -201,13 +207,9 @@ nav i {
   }
 }
 
-/* hamburguer button */
 
-button:focus {
-  outline: none;
-}
 
-/* header */
+/* ----------------------------------------------------- header */
 
 @media (min-width: 992px) {
   .masthead {
@@ -223,7 +225,7 @@ header {
   padding-bottom: 10px;
 }
 
-/* portfolio */
+/* ----------------------------------------------------- portfolio */
 
 .portfolio .portfolio-item .portfolio-item-caption {
   background-color: rgba(128, 166, 166, 0.8);
@@ -233,7 +235,7 @@ header {
   box-shadow: 3px 5px 10px 3px #777777;
 }
 
-/* modals */
+/* ----------------------------------------------------- modals */
 
 .modal .btn-dark, .modal .btn-outline-dark {
   margin-bottom: 5%;
@@ -244,7 +246,7 @@ header {
 }
 
 
-/* skills */
+/* ----------------------------------------------------- skills */
 
 .skill {
   font-size: 2rem;
@@ -284,36 +286,6 @@ header {
   width: 260px;
 }
 
-@media (min-width: 992px) {
-  .skills-section p {
-    margin-left: 25px;
-  }
-}
-
-/* contact */
-
-.btn-info {
-  color: #fff;
-  background-color: #80a6a6;
-  border-color: #80a6a6;
-}
-
-/* footer */
-
-.btn-social {
-  width: 4rem;
-  height: 4rem;
-}
-
-.form-control {
-  line-height: 1;
-  height: calc(1.1em + 0.75rem + 0.25rem);
-}
-
-.floating-label-form-group input, .floating-label-form-group textarea {
-  font-size: 1.3em;
-}
-
 .spanish, .english {
   color: white;
   font-size: 0.7rem;
@@ -330,3 +302,38 @@ header {
 .spanish {
   color: red;
 }
+
+@media (min-width: 992px) {
+  .skills-section p {
+    margin-left: 25px;
+  }
+}
+
+/* ----------------------------------------------------- contact */
+
+.btn-info {
+  color: #fff;
+  background-color: #80a6a6;
+  border-color: #80a6a6;
+}
+
+
+.form-control {
+  line-height: 1;
+  height: calc(1.1em + 0.75rem + 0.25rem);
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+  font-size: 1.3em;
+}
+
+
+/* ----------------------------------------------------- footer */
+
+.btn-social {
+  width: 4rem;
+  height: 4rem;
+}
+
+
+
