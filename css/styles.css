@@ -269,7 +269,7 @@ header {
 }
 
 .skills-section span {
-  margin-top: 12px;
+  margin: 12px auto 0px;
 }
 
 @media (min-width: 992px) {
