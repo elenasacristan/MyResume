@@ -251,6 +251,10 @@ header {
   /* margin-top: 10%; */
 }
 
+.skill-title {
+  height: 50px;
+}
+
 .skills-section h3 {
   margin-top: 8%;
   margin-bottom: 10%;
@@ -260,6 +264,12 @@ header {
 
 .skills-section p {
   font-size: 1.2rem;
+  line-height: 1rem;
+  margin-top: 12px;
+}
+
+.skills-section span {
+  margin-top: 12px;
 }
 
 @media (min-width: 992px) {
@@ -303,4 +313,21 @@ header {
 
 .floating-label-form-group input, .floating-label-form-group textarea {
   font-size: 1.3em;
+}
+
+.spanish, .english {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 900;
+  background-color: rgb(240, 236, 236);
+  color: rgb(19, 121, 65);
+  padding: 5px;
+  display: block;
+  width: 55px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px #777;
+}
+
+.spanish {
+  color: red;
 }
