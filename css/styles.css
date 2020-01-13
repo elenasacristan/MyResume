@@ -1,9 +1,9 @@
 /* google fonts */
 
 @import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800|Asap:700|Nunito:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:700&display=swap');
+
 /* genral */
 
 body {
@@ -12,7 +12,6 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Nunito', sans-serif;
-  /* font-family: 'Asap', sans-serif; */
 }
 
 .text-white {
@@ -30,6 +29,7 @@ h1, h2, h3, h4 {
 
 /* fontawesome icons */
 
+/*logo and hamburguer icons*/
 nav i {
   color: #eabc39;
   font-size: 2.3rem;
@@ -49,6 +49,7 @@ nav i {
   font-size: 1.8rem;
 }
 
+/* close modals icon */
 .portfolio-modal .close {
   color: #80a6a6;
 }
@@ -58,12 +59,9 @@ nav i {
   margin: 3% 7%;
 }
 
+/* linkedIn icon */
 .btn-social i {
   font-size: 2.3rem;
-}
-
-.modal .btn-dark, .modal .btn-outline-dark {
-  margin-bottom: 5%;
 }
 
 /* ----------------------------------------------------- nav bar */
@@ -108,11 +106,11 @@ nav i {
   margin-bottom: 40px;
 }
 
-.masthead .masthead-heading {
+.title-heading p {
   font-size: 2rem;
 }
 
-.title-heading p {
+.masthead .masthead-heading {
   font-size: 2rem;
 }
 
@@ -188,9 +186,6 @@ nav i {
 }
 
 @media (min-width: 768px) {
-  /* .about {
-    margin-top: -12%;
-  } */
   .about p {
     padding: 3%;
   }
@@ -234,21 +229,25 @@ header {
   background-color: rgba(128, 166, 166, 0.8);
 }
 
+.portfolio .portfolio-item {
+  box-shadow: 3px 5px 10px 3px #777777;
+}
+
 /* modals */
+
+.modal .btn-dark, .modal .btn-outline-dark {
+  margin-bottom: 5%;
+}
 
 .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show>.btn-dark.dropdown-toggle:focus, .btn-dark:focus, .btn-dark.focus, .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show>.btn-outline-dark.dropdown-toggle:focus, .btn-outline-dark:focus, .btn-outline-dark.focus {
   box-shadow: none;
 }
 
-.portfolio .portfolio-item {
-  box-shadow: 3px 5px 10px 3px #777777;
-}
 
 /* skills */
 
 .skill {
   font-size: 2rem;
-  /* margin-top: 10%; */
 }
 
 .skill-title {
@@ -272,12 +271,6 @@ header {
   margin: 12px auto 0px;
 }
 
-@media (min-width: 992px) {
-  .skills-section p {
-    margin-left: 25px;
-  }
-}
-
 .skills-block {
   padding: 2%;
 }
@@ -289,6 +282,12 @@ header {
 #skills .btn {
   margin-bottom: 5%;
   width: 260px;
+}
+
+@media (min-width: 992px) {
+  .skills-section p {
+    margin-left: 25px;
+  }
 }
 
 /* contact */
